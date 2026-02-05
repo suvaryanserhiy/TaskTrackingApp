@@ -75,12 +75,12 @@ public class Task {
         this.dueDate = dueDate;
     }
 
-    public UUID getUd() {
+    public UUID getId() {
         return id;
     }
 
-    public void setUd(UUID ud) {
-        this.id = ud;
+    public void setId(UUID id) {
+        this.id = id;
     }
 
     public String getTitle() {
