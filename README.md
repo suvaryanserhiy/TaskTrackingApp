@@ -30,6 +30,7 @@ A robust RESTful API for task management built with **Spring Boot 4.1**. This ap
 - [Configuration](#configuration)
 - [Testing](#testing)
 - [Contributing](#contributing)
+- [Acknowledgments](#acknowledgments)
 - [License](#license)
 
 ---
@@ -80,17 +81,17 @@ The application follows a **layered architecture** pattern:
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                      Controller Layer                        │
-│              (REST API Endpoints & Request Handling)         │
+│                      Controller Layer                       │
+│              (REST API Endpoints & Request Handling)        │
 ├─────────────────────────────────────────────────────────────┤
-│                       Service Layer                          │
-│                   (Business Logic & Rules)                   │
+│                       Service Layer                         │
+│                   (Business Logic & Rules)                  │
 ├─────────────────────────────────────────────────────────────┤
-│                      Repository Layer                        │
-│                 (Data Access & Persistence)                  │
+│                      Repository Layer                       │
+│                 (Data Access & Persistence)                 │
 ├─────────────────────────────────────────────────────────────┤
-│                       Database (H2)                          │
-│                    (Data Storage Layer)                      │
+│                       Database (H2)                         │
+│                    (Data Storage Layer)                     │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -494,6 +495,22 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
+## Acknowledgments
+
+This project was built following a **[Devtiro](https://www.youtube.com/@devtiro)** tutorial.
+
+| Resource | Description | Link |
+|----------|-------------|------|
+| **Devtiro** | Tutorial creator and frontend UI provider | [YouTube](https://www.youtube.com/@devtiro) \| [GitHub](https://github.com/devtiro) |
+| **Spring Boot** | Application framework powering the backend | [Website](https://spring.io/projects/spring-boot) |
+| **H2 Database** | Embedded database for development | [Website](https://h2database.com) |
+
+Special thanks to **[Devtiro](https://github.com/devtiro)** for:
+- Creating the comprehensive Spring Boot tutorial that guided this project
+- Providing the pre-built frontend UI container (`ghcr.io/devtiro/devtiro-build-task-app`)
+
+---
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
@@ -508,6 +525,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-**Built with Spring Boot**
+**Built with Spring Boot** | Frontend UI by [Devtiro](https://github.com/devtiro)
 
 </div>
